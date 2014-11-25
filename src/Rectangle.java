@@ -45,13 +45,13 @@ public class Rectangle {
   {
     return Math.sqrt(Height + Width);
   }
-  public int parimeter ()
+  public int perimeter ()
   {
     return Width + Width + Height + Height;
   }
   public boolean isSquare ()
   {
-    if (Height = Width)
+    if (Height == Width)
     {
       return true;
     }
@@ -71,7 +71,7 @@ public class Rectangle {
   public void scale (int dx, int dy)
   {
     Width += dx;
-    Heigt += dy;
+    Height += dy;
     topRight.setX(topRight.x + dx);
     topRight.setY(topRight.y + dy);
   }
